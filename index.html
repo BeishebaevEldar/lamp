@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="con">
+        <div class="main">
+            <div id="lamp" class="up"></div>
+            <div class="midle"></div>
+            <div class="low">
+                <div class="box"></div>
+                <div style="background-color: gray" class="box"></div>
+                <div class="box"></div>
+                <div style="background-color: gray" class="box"></div>
+            </div>
+            <div class="low1"></div>
+            <div class="low2"></div>
+
+            <div class="flex">
+                <button onclick="off()">off</button>
+                <button onclick="on()">on</button>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        let lamp = document.getElementById('lamp')
+        let stick = document.getElementById('stick')
+
+        let on = ()=>{
+            lamp.style.backgroundColor='yellow'
+            lamp.style.boxShadow='0px 0px 350px 250px white'
+            lamp.style.transition='0.1s'
+        }
+        
+        let off = ()=>{
+            lamp.style.backgroundColor='aliceblue'
+            lamp.style.boxShadow='0px 0px 0px 0px white'
+            lamp.style.transition='none'
+        }
+
+    </script>
+</body>
+</html>

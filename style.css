@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background:linear-gradient(90deg,rgb(0, 0, 0),rgb(12, 12, 12),rgb(0, 0, 0));
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(90deg,rgb(0, 0, 0),rgb(12, 12, 12),rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 300px;
+    height: 430px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid ; 
+    margin-bottom: -15px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.midle{
+    width:  100px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 0px 0px 10px 10px;
+    background:linear-gradient(0deg,rgb(63, 63, 63),rgb(199, 199, 199)) ;
+}
+.low{
+    width:  80px;
+    height: 60px;
+    border-right: 1px solid ;
+    border-left: 1px solid ;
+    border-bottom: 1px solid ;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(171, 171, 171);
+
+}
+.low1{
+    width:  40px;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(0, 0, 0);
+}
+.low2{
+    width:  20px;
+    height: 3px;
+    border: 1px solid ;
+    border-radius: 0px 0px 10px 10px;
+    background-color: gray;
+}
+.box{
+    padding: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin-top: 20px;
+
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    user-select: none;
+    font-size: 20px;
+}
